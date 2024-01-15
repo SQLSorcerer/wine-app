@@ -7,7 +7,7 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = env("DATABASE_URL")
+  url      = env("postgres://default:iFVPzhaI70Bo@ep-royal-base-51792998-pooler.us-east-1.postgres.vercel-storage.com:5432/verceldb")
 }
 
 model Wine {
